@@ -26,61 +26,10 @@ const Navbar = () => {
             Home
           </Link>
           <Link 
-            to="/about" 
-            className="font-medium text-gray-600 hover:text-primary transition-colors"
-          >
-            About
-          </Link>
-          <Link 
             to="/planning" 
             className="font-medium text-gray-600 hover:text-primary transition-colors"
           >
             Trip Planning
-          </Link>
-          <div className="relative group">
-            <button className="font-medium text-gray-600 hover:text-primary transition-colors flex items-center">
-              Pages
-              <svg 
-                className="ml-1 h-4 w-4" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={2} 
-                  d="M19 9l-7 7-7-7" 
-                />
-              </svg>
-            </button>
-            {/* Dropdown Menu */}
-            <div className="absolute hidden group-hover:block w-48 bg-white shadow-lg py-2 rounded-md mt-2">
-              <Link 
-                to="/destination" 
-                className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                Destination
-              </Link>
-              <Link 
-                to="/booking" 
-                className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                Booking
-              </Link>
-              <Link 
-                to="/travel-guide" 
-                className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                Travel Guide
-              </Link>
-            </div>
-          </div>
-          <Link 
-            to="/blog" 
-            className="font-medium text-gray-600 hover:text-primary transition-colors"
-          >
-            Blog
           </Link>
         </div>
 
