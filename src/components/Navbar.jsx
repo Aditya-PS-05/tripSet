@@ -74,50 +74,17 @@ const Navbar = () => {
               Home
             </Link>
             <Link 
-              to="/about" 
+              to="/planning" 
               className="block py-2 text-gray-600"
               onClick={() => setIsOpen(false)}
             >
-              About
+              Trip Planning
             </Link>
             <Link 
-              to="/services" 
-              className="block py-2 text-gray-600"
-              onClick={() => setIsOpen(false)}
+            to="/contact"
+            className="block px-6 py-2 rounded-full border-2 border-gray-900 text-gray-900 font-medium hover:bg-gray-900 hover:text-white transition-colors"
             >
-              Services
-            </Link>
-            <div className="py-2">
-              <button className="flex items-center text-gray-600">
-                Pages
-                <svg 
-                  className="ml-1 h-4 w-4" 
-                  fill="none" 
-                  stroke="currentColor" 
-                  viewBox="0 0 24 24"
-                >
-                  <path 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round" 
-                    strokeWidth={2} 
-                    d="M19 9l-7 7-7-7" 
-                  />
-                </svg>
-              </button>
-            </div>
-            <Link 
-              to="/blog" 
-              className="block py-2 text-gray-600"
-              onClick={() => setIsOpen(false)}
-            >
-              Blog
-            </Link>
-            <Link 
-              to="/contact" 
-              className="block py-2 text-gray-600"
-              onClick={() => setIsOpen(false)}
-            >
-              Contact Us
+            Contact Us
             </Link>
           </div>
         </div>
